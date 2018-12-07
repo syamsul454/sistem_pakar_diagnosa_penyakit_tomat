@@ -21,6 +21,8 @@ class Penyakit_daun extends CI_Controller
 
 		if ($this->input->post('pertanyaan') == 'ya') {
 			redirect('penyakit_daun/pertanyaan2');
+		}else{
+			redirect('Penyakit_daun')
 		}
 	}
 
@@ -50,7 +52,7 @@ class Penyakit_daun extends CI_Controller
 
 	public function penyakit_tomat()
 	{
-		echo "penyakitnya adalah layu pusarium";
+		echo "penyakitnya adalah layu Pusaruim";
 	}
 
 }
