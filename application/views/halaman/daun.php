@@ -4,7 +4,7 @@
 	}
 	.display-6 {
 		text-align: center;
-		font-size: 40px;
+		font-size: 43px;
 	}
 </style>
 <div class="jumbotron jumbotron-fluid mt-5  col-sm-10 "> 
