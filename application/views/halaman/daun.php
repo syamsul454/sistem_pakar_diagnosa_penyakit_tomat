@@ -23,7 +23,7 @@
 		<button name="pertanyaan" value="ya">ya</button>
 		<button name="pertanyaan" value="tidak">tidak</button>
 		</form>
-      <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+     
     </blockquote>
   </div>
 </div>
