@@ -22,7 +22,7 @@ class Penyakit_daun extends CI_Controller
 		if ($this->input->post('pertanyaan') == 'ya') {
 			redirect('penyakit_daun/pertanyaan2');
 		}else{
-			redirect('Penyakit_daun')
+			redirect('Penyakit_daun/pertanyaan2');
 		}
 	}
 
