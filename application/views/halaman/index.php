@@ -1,7 +1,6 @@
-
-<form method="post" action="<?= site_url('halaman/'. $url) ?>">
+<form method="post" action="<?= site_url($url) ?>">
 	<label><?= $daun  ?></label>
-	<button name="pertanyaan" value="daun">ya</button>
-	<button name="pertanyaan" value="buah">tidak</button>
-	lgjhg
+	<button name="pertanyaan" value="ya">ya</button>
+	<button name="pertanyaan" value="tidak">tidak</button>
 </form>
+	
