@@ -3,7 +3,7 @@
 /**
  * 
  */
-class Penyakit_daun extends CI_Controller
+/**class Penyakit_daun extends CI_Controller
 {
 	
 	public function __construct()
@@ -19,10 +19,14 @@ class Penyakit_daun extends CI_Controller
 		$this->load->view('templates/header');
 		$this->load->view('halaman/daun', $data);
 
-		if ($this->input->post('pertanyaan') == 'ya') {
+		if ($this->input->post('pertanyaan') == '') {
 			redirect('penyakit_daun/pertanyaan2');
 		}else{
+<<<<<<< HEAD
 			redirect('Penyakit_daun/pertanyaan2');
+=======
+			redirect('Penyakit_daun');
+>>>>>>> 7873f49bff5c3ec3e6ed70bf57d0a12d9ff7f3ff
 		}
 	}
 

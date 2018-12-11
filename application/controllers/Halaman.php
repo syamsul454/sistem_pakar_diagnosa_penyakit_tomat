@@ -13,28 +13,29 @@ class Halaman extends CI_Controller
 	public function index()
 	{
 
-		$data['daun'] = 'apalah penyakit tomat terjakit pada daun .. ?';
-		$data['url'] = 'inputdata';
+		$data['daun'] = 'Pada bagian apa tanaman tomat terjangkit penyakit..?';
+		$data['url'] = 'halaman/inputdata';
 
 		$this->load->view('templates/header');
 		$this->load->view('halaman/index', $data);
 		$this->load->view('templates/footer');
 	}
 
+
+
+
 	public function inputdata()
 	{
 		
-		$tomat =  $this->input->post('pertanyaan');
+		$input =  $this->input->post('pertanyaan');
 
-		if ($tomat == 'daun') {
-			
-
+		if ($input == 'ya') {
 		redirect('penyakit_daun/penyakit_pada_daun');
-	
 
-		} elseif ($tomat == 'buah') {
 
-	redirect('halaman/buah');
+		} elseif ($input == 'tidak') {
+
+		redirect('penyakit_buah1/pertanyaan1');
 			}
 	}
 
