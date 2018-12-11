@@ -1,3 +1,4 @@
+<<<<<<< HEAD:application/views/halaman/daun.php
 <style type="text/css">
 	.jumbotron-fluid {
 		margin: auto;
@@ -34,3 +35,11 @@
   </div>
 </div>
 
+=======
+<form method="post" action="<?= site_url($url) ?>">
+	<label><?= $daun  ?></label>
+	<button name="pertanyaan" value="ya">ya</button>
+	<button name="pertanyaan" value="tidak">tidak</button>
+</form>
+	
+>>>>>>> 7873f49bff5c3ec3e6ed70bf57d0a12d9ff7f3ff:application/views/halaman/rule.php
